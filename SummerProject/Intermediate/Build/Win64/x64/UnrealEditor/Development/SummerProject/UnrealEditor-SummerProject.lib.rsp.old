@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-SummerProject.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\jaymi\Desktop\personal projects\programs n games\Unreal Engine\SummerProject\Intermediate\Build\Win64\x64\SummerProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h.obj"
+"C:\Users\jaymi\Desktop\personal projects\programs n games\Unreal Engine\SummerProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\SummerProject\SummerProject.init.gen.cpp.obj"
+"C:\Users\jaymi\Desktop\personal projects\programs n games\Unreal Engine\SummerProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\SummerProject\UDA_Order.gen.cpp.obj"
+"C:\Users\jaymi\Desktop\personal projects\programs n games\Unreal Engine\SummerProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\SummerProject\OrderStruct.cpp.obj"
+"C:\Users\jaymi\Desktop\personal projects\programs n games\Unreal Engine\SummerProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\SummerProject\SummerProject.cpp.obj"
+"C:\Users\jaymi\Desktop\personal projects\programs n games\Unreal Engine\SummerProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\SummerProject\UDA_Order.cpp.obj"
+"C:\Users\jaymi\Desktop\personal projects\programs n games\Unreal Engine\SummerProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\SummerProject\PerModuleInline.gen.cpp.obj"
+"C:\Users\jaymi\Desktop\personal projects\programs n games\Unreal Engine\SummerProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\SummerProject\Default.rc2.res"
+/OUT:"C:\Users\jaymi\Desktop\personal projects\programs n games\Unreal Engine\SummerProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\SummerProject\UnrealEditor-SummerProject.lib"

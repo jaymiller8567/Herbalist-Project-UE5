@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "SummerProject",
+			"Path": "..\\Source\\SummerProject.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "SummerProjectEditor",
+			"Path": "..\\Source\\SummerProjectEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
