@@ -1,12 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\jaymi\\desktop\\personal projects\\programs n games\\unreal engine\\summerproject\\source\\summerproject\\summerproject.cpp",
+        "Source": "c:\\users\\jaymi\\unrealengine\\unreal-engine\\herbalist-project-ue5\\summerproject\\source\\summerproject\\summerproject.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\jaymi\\desktop\\personal projects\\programs n games\\unreal engine\\summerproject\\intermediate\\build\\win64\\x64\\summerprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "PCH": "c:\\users\\jaymi\\unrealengine\\unreal-engine\\herbalist-project-ue5\\summerproject\\intermediate\\build\\win64\\x64\\summerprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
         "Includes": [
-            "c:\\users\\jaymi\\desktop\\personal projects\\programs n games\\unreal engine\\summerproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\summerproject\\definitions.summerproject.h",
-            "c:\\users\\jaymi\\desktop\\personal projects\\programs n games\\unreal engine\\summerproject\\source\\summerproject\\summerproject.h"
+            "c:\\users\\jaymi\\unrealengine\\unreal-engine\\herbalist-project-ue5\\summerproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\summerproject\\definitions.summerproject.h",
+            "c:\\users\\jaymi\\unrealengine\\unreal-engine\\herbalist-project-ue5\\summerproject\\source\\summerproject\\summerproject.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

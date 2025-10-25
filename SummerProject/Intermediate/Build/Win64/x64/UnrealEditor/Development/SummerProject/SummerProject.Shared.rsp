@@ -285,8 +285,8 @@
 /I "Editor\SceneDepthPickerMode\Public"
 /I "..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationEditMode\UHT"
 /I "Editor\AnimationEditMode\Public"
-/I "C:\Users\jaymi\Desktop\personal projects\programs n games\Unreal Engine\SummerProject\Intermediate\Build\Win64\UnrealEditor\Inc\SummerProject\UHT"
-/I "C:\Users\jaymi\Desktop\personal projects\programs n games\Unreal Engine\SummerProject\Source"
+/I "C:\Users\jaymi\UnrealEngine\Unreal-Engine\Herbalist-Project-UE5\SummerProject\Intermediate\Build\Win64\UnrealEditor\Inc\SummerProject\UHT"
+/I "C:\Users\jaymi\UnrealEngine\Unreal-Engine\Herbalist-Project-UE5\SummerProject\Source"
 /external:W0
 /external:I "ThirdParty\GuidelinesSupportLibrary\GSL-1144\include"
 /external:I "ThirdParty\RapidJSON\1.1.0"
