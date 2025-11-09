@@ -11,11 +11,11 @@ void EmptyLinkFunctionForGeneratedCodeUDA_Order() {}
 
 // Begin Cross Module References
 ENGINE_API UClass* Z_Construct_UClass_UDataAsset();
-ENGINE_API UClass* Z_Construct_UClass_UTexture2D_NoRegister();
+SUMMERPROJECT_API UClass* Z_Construct_UClass_UDA_Character_NoRegister();
 SUMMERPROJECT_API UClass* Z_Construct_UClass_UDA_Order();
 SUMMERPROJECT_API UClass* Z_Construct_UClass_UDA_Order_NoRegister();
 SUMMERPROJECT_API UEnum* Z_Construct_UEnum_SummerProject_EPlantType();
-SUMMERPROJECT_API UScriptStruct* Z_Construct_UScriptStruct_FOrders();
+SUMMERPROJECT_API UScriptStruct* Z_Construct_UScriptStruct_FOrder();
 UPackage* Z_Construct_UPackage__Script_SummerProject();
 // End Cross Module References
 
@@ -87,21 +87,21 @@ UEnum* Z_Construct_UEnum_SummerProject_EPlantType()
 }
 // End Enum EPlantType
 
-// Begin ScriptStruct FOrders
-static FStructRegistrationInfo Z_Registration_Info_UScriptStruct_Orders;
-class UScriptStruct* FOrders::StaticStruct()
+// Begin ScriptStruct FOrder
+static FStructRegistrationInfo Z_Registration_Info_UScriptStruct_Order;
+class UScriptStruct* FOrder::StaticStruct()
 {
-	if (!Z_Registration_Info_UScriptStruct_Orders.OuterSingleton)
+	if (!Z_Registration_Info_UScriptStruct_Order.OuterSingleton)
 	{
-		Z_Registration_Info_UScriptStruct_Orders.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FOrders, (UObject*)Z_Construct_UPackage__Script_SummerProject(), TEXT("Orders"));
+		Z_Registration_Info_UScriptStruct_Order.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FOrder, (UObject*)Z_Construct_UPackage__Script_SummerProject(), TEXT("Order"));
 	}
-	return Z_Registration_Info_UScriptStruct_Orders.OuterSingleton;
+	return Z_Registration_Info_UScriptStruct_Order.OuterSingleton;
 }
-template<> SUMMERPROJECT_API UScriptStruct* StaticStruct<FOrders>()
+template<> SUMMERPROJECT_API UScriptStruct* StaticStruct<FOrder>()
 {
-	return FOrders::StaticStruct();
+	return FOrder::StaticStruct();
 }
-struct Z_Construct_UScriptStruct_FOrders_Statics
+struct Z_Construct_UScriptStruct_FOrder_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[] = {
@@ -109,76 +109,76 @@ struct Z_Construct_UScriptStruct_FOrders_Statics
 		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "UDA_Order.h" },
 	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CharacterName_MetaData[] = {
-		{ "Category", "Orders" },
-		{ "ModuleRelativePath", "UDA_Order.h" },
-	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CharacterPortrait_MetaData[] = {
-		{ "Category", "Orders" },
-		{ "ModuleRelativePath", "UDA_Order.h" },
-	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OrderName_MetaData[] = {
-		{ "Category", "Orders" },
+		{ "Category", "Order" },
 		{ "ModuleRelativePath", "UDA_Order.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Ingredients_MetaData[] = {
-		{ "Category", "Orders" },
+		{ "Category", "Order" },
+		{ "ModuleRelativePath", "UDA_Order.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LetterDescription_MetaData[] = {
+		{ "Category", "Order" },
+		{ "ModuleRelativePath", "UDA_Order.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PossibleCharacters_MetaData[] = {
+		{ "Category", "Order" },
 		{ "ModuleRelativePath", "UDA_Order.h" },
 	};
 #endif // WITH_METADATA
-	static const UECodeGen_Private::FStrPropertyParams NewProp_CharacterName;
-	static const UECodeGen_Private::FObjectPropertyParams NewProp_CharacterPortrait;
 	static const UECodeGen_Private::FStrPropertyParams NewProp_OrderName;
 	static const UECodeGen_Private::FIntPropertyParams NewProp_Ingredients_ValueProp;
 	static const UECodeGen_Private::FBytePropertyParams NewProp_Ingredients_Key_KeyProp_Underlying;
 	static const UECodeGen_Private::FEnumPropertyParams NewProp_Ingredients_Key_KeyProp;
 	static const UECodeGen_Private::FMapPropertyParams NewProp_Ingredients;
+	static const UECodeGen_Private::FStrPropertyParams NewProp_LetterDescription;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_PossibleCharacters;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static void* NewStructOps()
 	{
-		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FOrders>();
+		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FOrder>();
 	}
 	static const UECodeGen_Private::FStructParams StructParams;
 };
-const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FOrders_Statics::NewProp_CharacterName = { "CharacterName", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOrders, CharacterName), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CharacterName_MetaData), NewProp_CharacterName_MetaData) };
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UScriptStruct_FOrders_Statics::NewProp_CharacterPortrait = { "CharacterPortrait", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOrders, CharacterPortrait), Z_Construct_UClass_UTexture2D_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CharacterPortrait_MetaData), NewProp_CharacterPortrait_MetaData) };
-const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FOrders_Statics::NewProp_OrderName = { "OrderName", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOrders, OrderName), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OrderName_MetaData), NewProp_OrderName_MetaData) };
-const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FOrders_Statics::NewProp_Ingredients_ValueProp = { "Ingredients", nullptr, (EPropertyFlags)0x0000000000000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FOrders_Statics::NewProp_Ingredients_Key_KeyProp_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FOrders_Statics::NewProp_Ingredients_Key_KeyProp = { "Ingredients_Key", nullptr, (EPropertyFlags)0x0000000000000001, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UEnum_SummerProject_EPlantType, METADATA_PARAMS(0, nullptr) }; // 974260039
-const UECodeGen_Private::FMapPropertyParams Z_Construct_UScriptStruct_FOrders_Statics::NewProp_Ingredients = { "Ingredients", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOrders, Ingredients), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Ingredients_MetaData), NewProp_Ingredients_MetaData) }; // 974260039
-const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FOrders_Statics::PropPointers[] = {
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FOrders_Statics::NewProp_CharacterName,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FOrders_Statics::NewProp_CharacterPortrait,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FOrders_Statics::NewProp_OrderName,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FOrders_Statics::NewProp_Ingredients_ValueProp,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FOrders_Statics::NewProp_Ingredients_Key_KeyProp_Underlying,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FOrders_Statics::NewProp_Ingredients_Key_KeyProp,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FOrders_Statics::NewProp_Ingredients,
+const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FOrder_Statics::NewProp_OrderName = { "OrderName", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOrder, OrderName), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OrderName_MetaData), NewProp_OrderName_MetaData) };
+const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FOrder_Statics::NewProp_Ingredients_ValueProp = { "Ingredients", nullptr, (EPropertyFlags)0x0000000000000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FOrder_Statics::NewProp_Ingredients_Key_KeyProp_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FOrder_Statics::NewProp_Ingredients_Key_KeyProp = { "Ingredients_Key", nullptr, (EPropertyFlags)0x0000000000000001, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UEnum_SummerProject_EPlantType, METADATA_PARAMS(0, nullptr) }; // 974260039
+const UECodeGen_Private::FMapPropertyParams Z_Construct_UScriptStruct_FOrder_Statics::NewProp_Ingredients = { "Ingredients", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOrder, Ingredients), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Ingredients_MetaData), NewProp_Ingredients_MetaData) }; // 974260039
+const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FOrder_Statics::NewProp_LetterDescription = { "LetterDescription", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOrder, LetterDescription), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LetterDescription_MetaData), NewProp_LetterDescription_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UScriptStruct_FOrder_Statics::NewProp_PossibleCharacters = { "PossibleCharacters", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOrder, PossibleCharacters), Z_Construct_UClass_UDA_Character_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_PossibleCharacters_MetaData), NewProp_PossibleCharacters_MetaData) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FOrder_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FOrder_Statics::NewProp_OrderName,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FOrder_Statics::NewProp_Ingredients_ValueProp,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FOrder_Statics::NewProp_Ingredients_Key_KeyProp_Underlying,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FOrder_Statics::NewProp_Ingredients_Key_KeyProp,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FOrder_Statics::NewProp_Ingredients,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FOrder_Statics::NewProp_LetterDescription,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FOrder_Statics::NewProp_PossibleCharacters,
 };
-static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOrders_Statics::PropPointers) < 2048);
-const UECodeGen_Private::FStructParams Z_Construct_UScriptStruct_FOrders_Statics::StructParams = {
+static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOrder_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FStructParams Z_Construct_UScriptStruct_FOrder_Statics::StructParams = {
 	(UObject* (*)())Z_Construct_UPackage__Script_SummerProject,
 	nullptr,
 	&NewStructOps,
-	"Orders",
-	Z_Construct_UScriptStruct_FOrders_Statics::PropPointers,
-	UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOrders_Statics::PropPointers),
-	sizeof(FOrders),
-	alignof(FOrders),
+	"Order",
+	Z_Construct_UScriptStruct_FOrder_Statics::PropPointers,
+	UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOrder_Statics::PropPointers),
+	sizeof(FOrder),
+	alignof(FOrder),
 	RF_Public|RF_Transient|RF_MarkAsNative,
 	EStructFlags(0x00000001),
-	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOrders_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FOrders_Statics::Struct_MetaDataParams)
+	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOrder_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FOrder_Statics::Struct_MetaDataParams)
 };
-UScriptStruct* Z_Construct_UScriptStruct_FOrders()
+UScriptStruct* Z_Construct_UScriptStruct_FOrder()
 {
-	if (!Z_Registration_Info_UScriptStruct_Orders.InnerSingleton)
+	if (!Z_Registration_Info_UScriptStruct_Order.InnerSingleton)
 	{
-		UECodeGen_Private::ConstructUScriptStruct(Z_Registration_Info_UScriptStruct_Orders.InnerSingleton, Z_Construct_UScriptStruct_FOrders_Statics::StructParams);
+		UECodeGen_Private::ConstructUScriptStruct(Z_Registration_Info_UScriptStruct_Order.InnerSingleton, Z_Construct_UScriptStruct_FOrder_Statics::StructParams);
 	}
-	return Z_Registration_Info_UScriptStruct_Orders.InnerSingleton;
+	return Z_Registration_Info_UScriptStruct_Order.InnerSingleton;
 }
-// End ScriptStruct FOrders
+// End ScriptStruct FOrder
 
 // Begin Class UDA_Order
 void UDA_Order::StaticRegisterNativesUDA_Order()
@@ -198,13 +198,12 @@ struct Z_Construct_UClass_UDA_Order_Statics
 		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "UDA_Order.h" },
 	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OrderArray_MetaData[] = {
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Recipe_MetaData[] = {
 		{ "Category", "Variables" },
 		{ "ModuleRelativePath", "UDA_Order.h" },
 	};
 #endif // WITH_METADATA
-	static const UECodeGen_Private::FStructPropertyParams NewProp_OrderArray_Inner;
-	static const UECodeGen_Private::FArrayPropertyParams NewProp_OrderArray;
+	static const UECodeGen_Private::FStructPropertyParams NewProp_Recipe;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -212,11 +211,9 @@ struct Z_Construct_UClass_UDA_Order_Statics
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UDA_Order_Statics::NewProp_OrderArray_Inner = { "OrderArray", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOrders, METADATA_PARAMS(0, nullptr) }; // 3040083993
-const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UDA_Order_Statics::NewProp_OrderArray = { "OrderArray", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UDA_Order, OrderArray), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OrderArray_MetaData), NewProp_OrderArray_MetaData) }; // 3040083993
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UDA_Order_Statics::NewProp_Recipe = { "Recipe", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UDA_Order, Recipe), Z_Construct_UScriptStruct_FOrder, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Recipe_MetaData), NewProp_Recipe_MetaData) }; // 4051842826
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UDA_Order_Statics::PropPointers[] = {
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDA_Order_Statics::NewProp_OrderArray_Inner,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDA_Order_Statics::NewProp_OrderArray,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDA_Order_Statics::NewProp_Recipe,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UDA_Order_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_UDA_Order_Statics::DependentSingletons[])() = {
@@ -263,13 +260,13 @@ struct Z_CompiledInDeferFile_FID_Users_jaymi_UnrealEngine_Unreal_Engine_Herbalis
 		{ EPlantType_StaticEnum, TEXT("EPlantType"), &Z_Registration_Info_UEnum_EPlantType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 974260039U) },
 	};
 	static constexpr FStructRegisterCompiledInInfo ScriptStructInfo[] = {
-		{ FOrders::StaticStruct, Z_Construct_UScriptStruct_FOrders_Statics::NewStructOps, TEXT("Orders"), &Z_Registration_Info_UScriptStruct_Orders, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOrders), 3040083993U) },
+		{ FOrder::StaticStruct, Z_Construct_UScriptStruct_FOrder_Statics::NewStructOps, TEXT("Order"), &Z_Registration_Info_UScriptStruct_Order, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOrder), 4051842826U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UDA_Order, UDA_Order::StaticClass, TEXT("UDA_Order"), &Z_Registration_Info_UClass_UDA_Order, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UDA_Order), 1754491710U) },
+		{ Z_Construct_UClass_UDA_Order, UDA_Order::StaticClass, TEXT("UDA_Order"), &Z_Registration_Info_UClass_UDA_Order, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UDA_Order), 4284855032U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_jaymi_UnrealEngine_Unreal_Engine_Herbalist_Project_UE5_SummerProject_Source_SummerProject_UDA_Order_h_4186478964(TEXT("/Script/SummerProject"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_jaymi_UnrealEngine_Unreal_Engine_Herbalist_Project_UE5_SummerProject_Source_SummerProject_UDA_Order_h_1882401207(TEXT("/Script/SummerProject"),
 	Z_CompiledInDeferFile_FID_Users_jaymi_UnrealEngine_Unreal_Engine_Herbalist_Project_UE5_SummerProject_Source_SummerProject_UDA_Order_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_jaymi_UnrealEngine_Unreal_Engine_Herbalist_Project_UE5_SummerProject_Source_SummerProject_UDA_Order_h_Statics::ClassInfo),
 	Z_CompiledInDeferFile_FID_Users_jaymi_UnrealEngine_Unreal_Engine_Herbalist_Project_UE5_SummerProject_Source_SummerProject_UDA_Order_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_jaymi_UnrealEngine_Unreal_Engine_Herbalist_Project_UE5_SummerProject_Source_SummerProject_UDA_Order_h_Statics::ScriptStructInfo),
 	Z_CompiledInDeferFile_FID_Users_jaymi_UnrealEngine_Unreal_Engine_Herbalist_Project_UE5_SummerProject_Source_SummerProject_UDA_Order_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_jaymi_UnrealEngine_Unreal_Engine_Herbalist_Project_UE5_SummerProject_Source_SummerProject_UDA_Order_h_Statics::EnumInfo));

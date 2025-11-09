@@ -14,14 +14,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define SUMMERPROJECT_UDA_Order_generated_h
 
-#define FID_Users_jaymi_UnrealEngine_Unreal_Engine_Herbalist_Project_UE5_SummerProject_Source_SummerProject_UDA_Order_h_23_GENERATED_BODY \
-	friend struct Z_Construct_UScriptStruct_FOrders_Statics; \
+#define FID_Users_jaymi_UnrealEngine_Unreal_Engine_Herbalist_Project_UE5_SummerProject_Source_SummerProject_UDA_Order_h_24_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOrder_Statics; \
 	SUMMERPROJECT_API static class UScriptStruct* StaticStruct();
 
 
-template<> SUMMERPROJECT_API UScriptStruct* StaticStruct<struct FOrders>();
+template<> SUMMERPROJECT_API UScriptStruct* StaticStruct<struct FOrder>();
 
-#define FID_Users_jaymi_UnrealEngine_Unreal_Engine_Herbalist_Project_UE5_SummerProject_Source_SummerProject_UDA_Order_h_42_INCLASS_NO_PURE_DECLS \
+#define FID_Users_jaymi_UnrealEngine_Unreal_Engine_Herbalist_Project_UE5_SummerProject_Source_SummerProject_UDA_Order_h_41_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUDA_Order(); \
 	friend struct Z_Construct_UClass_UDA_Order_Statics; \
@@ -30,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(UDA_Order)
 
 
-#define FID_Users_jaymi_UnrealEngine_Unreal_Engine_Herbalist_Project_UE5_SummerProject_Source_SummerProject_UDA_Order_h_42_ENHANCED_CONSTRUCTORS \
+#define FID_Users_jaymi_UnrealEngine_Unreal_Engine_Herbalist_Project_UE5_SummerProject_Source_SummerProject_UDA_Order_h_41_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UDA_Order(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
@@ -44,12 +44,12 @@ public: \
 	NO_API virtual ~UDA_Order();
 
 
-#define FID_Users_jaymi_UnrealEngine_Unreal_Engine_Herbalist_Project_UE5_SummerProject_Source_SummerProject_UDA_Order_h_39_PROLOG
-#define FID_Users_jaymi_UnrealEngine_Unreal_Engine_Herbalist_Project_UE5_SummerProject_Source_SummerProject_UDA_Order_h_42_GENERATED_BODY \
+#define FID_Users_jaymi_UnrealEngine_Unreal_Engine_Herbalist_Project_UE5_SummerProject_Source_SummerProject_UDA_Order_h_38_PROLOG
+#define FID_Users_jaymi_UnrealEngine_Unreal_Engine_Herbalist_Project_UE5_SummerProject_Source_SummerProject_UDA_Order_h_41_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_jaymi_UnrealEngine_Unreal_Engine_Herbalist_Project_UE5_SummerProject_Source_SummerProject_UDA_Order_h_42_INCLASS_NO_PURE_DECLS \
-	FID_Users_jaymi_UnrealEngine_Unreal_Engine_Herbalist_Project_UE5_SummerProject_Source_SummerProject_UDA_Order_h_42_ENHANCED_CONSTRUCTORS \
+	FID_Users_jaymi_UnrealEngine_Unreal_Engine_Herbalist_Project_UE5_SummerProject_Source_SummerProject_UDA_Order_h_41_INCLASS_NO_PURE_DECLS \
+	FID_Users_jaymi_UnrealEngine_Unreal_Engine_Herbalist_Project_UE5_SummerProject_Source_SummerProject_UDA_Order_h_41_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

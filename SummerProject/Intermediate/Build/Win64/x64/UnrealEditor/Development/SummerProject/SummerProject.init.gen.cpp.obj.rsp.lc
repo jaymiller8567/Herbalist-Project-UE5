@@ -1,12 +1,12 @@
-"C:\Users\jaymi\Desktop\personal projects\programs n games\Unreal Engine\SummerProject\Intermediate\Build\Win64\UnrealEditor\Inc\SummerProject\UHT\SummerProject.init.gen.cpp"
-/FI"C:\Users\jaymi\Desktop\personal projects\programs n games\Unreal Engine\SummerProject\Intermediate\Build\Win64\x64\SummerProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h"
-/FI"C:\Users\jaymi\Desktop\personal projects\programs n games\Unreal Engine\SummerProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\SummerProject\Definitions.SummerProject.h"
-/Yu"C:\Users\jaymi\Desktop\personal projects\programs n games\Unreal Engine\SummerProject\Intermediate\Build\Win64\x64\SummerProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h"
-/Fp"C:\Users\jaymi\Desktop\personal projects\programs n games\Unreal Engine\SummerProject\Intermediate\Build\Win64\x64\SummerProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h.pch"
-/Fo"C:\Users\jaymi\Desktop\personal projects\programs n games\Unreal Engine\SummerProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\SummerProject\SummerProject.init.gen.cpp.lc.obj"
-/experimental:log "C:\Users\jaymi\Desktop\personal projects\programs n games\Unreal Engine\SummerProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\SummerProject\SummerProject.init.gen.cpp.sarif"
-/sourceDependencies"C:\Users\jaymi\Desktop\personal projects\programs n games\Unreal Engine\SummerProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\SummerProject\SummerProject.init.gen.cpp.dep.lc.json"
-@"C:\Users\jaymi\Desktop\personal projects\programs n games\Unreal Engine\SummerProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\SummerProject\SummerProject.Shared.rsp"
+"C:\Users\jaymi\UnrealEngine\Unreal-Engine\Herbalist-Project-UE5\SummerProject\Intermediate\Build\Win64\UnrealEditor\Inc\SummerProject\UHT\SummerProject.init.gen.cpp"
+/FI"C:\Users\jaymi\UnrealEngine\Unreal-Engine\Herbalist-Project-UE5\SummerProject\Intermediate\Build\Win64\x64\SummerProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h"
+/FI"C:\Users\jaymi\UnrealEngine\Unreal-Engine\Herbalist-Project-UE5\SummerProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\SummerProject\Definitions.SummerProject.h"
+/Yu"C:\Users\jaymi\UnrealEngine\Unreal-Engine\Herbalist-Project-UE5\SummerProject\Intermediate\Build\Win64\x64\SummerProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h"
+/Fp"C:\Users\jaymi\UnrealEngine\Unreal-Engine\Herbalist-Project-UE5\SummerProject\Intermediate\Build\Win64\x64\SummerProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h.pch"
+/Fo"C:\Users\jaymi\UnrealEngine\Unreal-Engine\Herbalist-Project-UE5\SummerProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\SummerProject\SummerProject.init.gen.cpp.lc.obj"
+/experimental:log "C:\Users\jaymi\UnrealEngine\Unreal-Engine\Herbalist-Project-UE5\SummerProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\SummerProject\SummerProject.init.gen.cpp.sarif"
+/sourceDependencies"C:\Users\jaymi\UnrealEngine\Unreal-Engine\Herbalist-Project-UE5\SummerProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\SummerProject\SummerProject.init.gen.cpp.dep.lc.json"
+@"C:\Users\jaymi\UnrealEngine\Unreal-Engine\Herbalist-Project-UE5\SummerProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\SummerProject\SummerProject.Shared.rsp"
 /d2ssa-cfg-question-
 /Zc:inline
 /nologo

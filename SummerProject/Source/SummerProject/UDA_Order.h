@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "UDA_Character.h"
 #include "Engine/DataAsset.h"
 #include "UDA_Order.generated.h"
 
@@ -19,22 +20,20 @@ enum class EPlantType : uint8
 };
 
 USTRUCT(Blueprintable, BlueprintType)
-struct FOrders {
+struct FOrder {
 	GENERATED_BODY()
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	FString CharacterName;
-		
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	UTexture2D* CharacterPortrait;
-
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FString OrderName;
 		
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TMap<EPlantType, int32> Ingredients; 
-};
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+    FString LetterDescription;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UDA_Character* PossibleCharacters;
+};
 
 UCLASS(Blueprintable, BlueprintType)
 class SUMMERPROJECT_API UDA_Order : public UDataAsset
@@ -43,5 +42,5 @@ class SUMMERPROJECT_API UDA_Order : public UDataAsset
 
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Variables")
-	TArray<FOrders>	OrderArray;
+	FOrder Recipe;
 };

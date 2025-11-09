@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jaymi\\Desktop\\personal projects\\programs n games\\Unreal Engine\\SummerProject\\Intermediate\\Build\\BuildRulesProjects\\SummerProjectModuleRules\\SummerProjectModuleRules.csproj": {}
+    "C:\\Users\\jaymi\\UnrealEngine\\Unreal-Engine\\Herbalist-Project-UE5\\SummerProject\\Intermediate\\Build\\BuildRulesProjects\\SummerProjectModuleRules\\SummerProjectModuleRules.csproj": {}
   },
   "projects": {
     "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Intermediate\\Build\\BuildRulesProjects\\MarketplaceRules\\MarketplaceRules.csproj": {
@@ -1178,14 +1178,14 @@
         }
       }
     },
-    "C:\\Users\\jaymi\\Desktop\\personal projects\\programs n games\\Unreal Engine\\SummerProject\\Intermediate\\Build\\BuildRulesProjects\\SummerProjectModuleRules\\SummerProjectModuleRules.csproj": {
+    "C:\\Users\\jaymi\\UnrealEngine\\Unreal-Engine\\Herbalist-Project-UE5\\SummerProject\\Intermediate\\Build\\BuildRulesProjects\\SummerProjectModuleRules\\SummerProjectModuleRules.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jaymi\\Desktop\\personal projects\\programs n games\\Unreal Engine\\SummerProject\\Intermediate\\Build\\BuildRulesProjects\\SummerProjectModuleRules\\SummerProjectModuleRules.csproj",
+        "projectUniqueName": "C:\\Users\\jaymi\\UnrealEngine\\Unreal-Engine\\Herbalist-Project-UE5\\SummerProject\\Intermediate\\Build\\BuildRulesProjects\\SummerProjectModuleRules\\SummerProjectModuleRules.csproj",
         "projectName": "SummerProjectModuleRules",
-        "projectPath": "C:\\Users\\jaymi\\Desktop\\personal projects\\programs n games\\Unreal Engine\\SummerProject\\Intermediate\\Build\\BuildRulesProjects\\SummerProjectModuleRules\\SummerProjectModuleRules.csproj",
+        "projectPath": "C:\\Users\\jaymi\\UnrealEngine\\Unreal-Engine\\Herbalist-Project-UE5\\SummerProject\\Intermediate\\Build\\BuildRulesProjects\\SummerProjectModuleRules\\SummerProjectModuleRules.csproj",
         "packagesPath": "C:\\Users\\jaymi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jaymi\\Desktop\\personal projects\\programs n games\\Unreal Engine\\SummerProject\\Intermediate\\Build\\BuildRulesProjects\\SummerProjectModuleRules\\obj\\",
+        "outputPath": "C:\\Users\\jaymi\\UnrealEngine\\Unreal-Engine\\Herbalist-Project-UE5\\SummerProject\\Intermediate\\Build\\BuildRulesProjects\\SummerProjectModuleRules\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jaymi\\AppData\\Roaming\\NuGet\\NuGet.Config",

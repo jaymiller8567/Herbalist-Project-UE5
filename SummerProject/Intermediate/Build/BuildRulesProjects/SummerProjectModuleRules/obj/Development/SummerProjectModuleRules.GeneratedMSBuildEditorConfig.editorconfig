@@ -16,6 +16,6 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SummerProjectModuleRules
-build_property.ProjectDir = C:\Users\jaymi\Desktop\personal projects\programs n games\Unreal Engine\SummerProject\Intermediate\Build\BuildRulesProjects\SummerProjectModuleRules\
+build_property.ProjectDir = C:\Users\jaymi\UnrealEngine\Unreal-Engine\Herbalist-Project-UE5\SummerProject\Intermediate\Build\BuildRulesProjects\SummerProjectModuleRules\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

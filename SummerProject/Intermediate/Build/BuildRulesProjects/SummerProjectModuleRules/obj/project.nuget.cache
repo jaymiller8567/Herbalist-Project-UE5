@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ag7X6s5tjzg=",
+  "dgSpecHash": "FGyK57dDmCw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\jaymi\\Desktop\\personal projects\\programs n games\\Unreal Engine\\SummerProject\\Intermediate\\Build\\BuildRulesProjects\\SummerProjectModuleRules\\SummerProjectModuleRules.csproj",
+  "projectFilePath": "C:\\Users\\jaymi\\UnrealEngine\\Unreal-Engine\\Herbalist-Project-UE5\\SummerProject\\Intermediate\\Build\\BuildRulesProjects\\SummerProjectModuleRules\\SummerProjectModuleRules.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jaymi\\.nuget\\packages\\bitfaster.caching\\2.4.1\\bitfaster.caching.2.4.1.nupkg.sha512",
     "C:\\Users\\jaymi\\.nuget\\packages\\blake3\\1.1.0\\blake3.1.1.0.nupkg.sha512",

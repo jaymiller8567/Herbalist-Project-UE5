@@ -7,6 +7,8 @@
         "Includes": [
             "c:\\users\\jaymi\\unrealengine\\unreal-engine\\herbalist-project-ue5\\summerproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\summerproject\\definitions.summerproject.h",
             "c:\\users\\jaymi\\unrealengine\\unreal-engine\\herbalist-project-ue5\\summerproject\\source\\summerproject\\uda_order.h",
+            "c:\\users\\jaymi\\unrealengine\\unreal-engine\\herbalist-project-ue5\\summerproject\\source\\summerproject\\uda_character.h",
+            "c:\\users\\jaymi\\unrealengine\\unreal-engine\\herbalist-project-ue5\\summerproject\\intermediate\\build\\win64\\unrealeditor\\inc\\summerproject\\uht\\uda_character.generated.h",
             "c:\\users\\jaymi\\unrealengine\\unreal-engine\\herbalist-project-ue5\\summerproject\\intermediate\\build\\win64\\unrealeditor\\inc\\summerproject\\uht\\uda_order.generated.h"
         ],
         "ImportedModules": [],
